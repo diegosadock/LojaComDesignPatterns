@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ef651e1-5f75-462f-9fc1-30c9aeb1193c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loja.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/DomainException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesComposicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesDescontos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesImpostos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/TestesPedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/desconto/CalculadoraDeDescontos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/desconto/Desconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/desconto/DescontoParaOrcamentoAcimaDe500Reais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/desconto/DescontoParaOrcamentoComMaisDeCincoItens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/desconto/SemDesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/http/HttpAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/http/JavaHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/CalculadoraDeImpostos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ICMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ICMSComISS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/ISS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/imposto/Imposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/ItemOrcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/OrcamentoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/Orcavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/orcamento/RegistroDeOrcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/pedido/GeraPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/pedido/GeraPedidoHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/pedido/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/pedido/acao/AcaoAposGerarPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/pedido/acao/EnviarEmailPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/pedido/acao/LogDePedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/pedido/acao/SalvarPedidoNoBancoDeDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/situacao/Aprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/situacao/EmAnalise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/situacao/Finalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/situacao/Reprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/loja/situacao/SituacaoOrcamento.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qviz0640TN5EIvqflVILnIG3ho" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/diego/Documents/rh"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura.loja.imposto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.loja.imposto" />
+      <recent name="br.com.alura.loja.pedido.acao" />
+      <recent name="br.com.alura.loja.desconto" />
+      <recent name="br.com.alura.loja" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestesComposicao">
+    <configuration name="TestesComposicao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.TestesComposicao" />
+      <module name="loja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.loja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestesImposto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.TestesImposto" />
+      <module name="loja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.loja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestesPedidos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.loja.TestesPedidos" />
+      <module name="loja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.loja.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestesComposicao" />
+        <item itemvalue="Application.TestesPedidos" />
+        <item itemvalue="Application.TestesImposto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ef651e1-5f75-462f-9fc1-30c9aeb1193c" name="Changes" comment="" />
+      <created>1686240716884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686240716884</updated>
+    </task>
+    <servers />
+  </component>
+</project>
